@@ -1,38 +1,113 @@
+/* .masterContainer{
+  text-align: center;
+  margin: 10% 42%;
+}
 .App {
   text-align: center;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 20px;
+  height: 200px;
+  background: rgb(187, 183, 183);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  color: rgb(87, 84, 84);
+  text-align: start;
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App div{
+  height: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginContainer{
+  width: 20%;
+  border: 1px solid gray;
+} */
+
+
+.Contaniner{
+  /* text-align: center; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.loginContainer{
+  width: 20%;
+  background-color: rgb(235, 232, 232);
+  padding: 20px;
+  margin-top: 10%;
+  text-align: center;
+  border: 1px solid rgb(133, 131, 131);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginField{
+  width: 70%;
+  border: 1px solid rgb(117, 116, 116);
+  padding: 10px;
+  background: rgb(211, 209, 209);
+  margin-left: 32px;
+    margin-bottom: 26px;
+}
+
+.loginField div{
+  text-align: left;
+}
+
+.fieldName{
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.title{
+  text-align: start;
+  margin-left: 27px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btnchange{
+  display: flex;
+  margin: 10px 0px;
+  justify-content: space-between;
+}
+
+.inputview{
+  width: 85%;
+  height: 25px;
+  margin: 7px 0px;
+}
+
+.nextLink{
+  display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #0089ff;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.errorMessege{
+  color: red;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.successmsg{
+  color: rgb(14, 168, 14);
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 25px;
 }
